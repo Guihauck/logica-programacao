@@ -1,0 +1,40 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class uri_1018 {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+
+		Scanner leitor = new Scanner(System.in);
+
+		int N = leitor.nextInt();
+
+		int valor;
+		valor = N / 100;
+		valor = valor % 100;
+		valor = N / 50;
+		valor = valor % 50;
+		valor = N / 20;
+		valor = valor % 20;
+		valor = N / 10;
+		valor = valor % 10;
+		valor = N / 5;
+		valor = valor % 5;
+		valor = N / 2;
+		valor = valor % 2;
+		valor = N / 1;
+		valor = valor % 1;
+		
+		System.out.println(valor + "nota(s) de R$ 100,00");
+		System.out.println(valor + "nota(s) de R$ 50,00");
+		System.out.println(valor + "nota(s) de R$ 20,00");
+		System.out.println(valor + "nota(s) de R$ 10,00");
+		System.out.println(valor + "nota(s) de R$ 2,00");
+		System.out.println(valor + "nota(s) de R$ 1,00");
+
+		leitor.close();
+	}
+
+}

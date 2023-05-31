@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class uri_1012 {
+
+	public static void main(String[] args) {
+		
+	Scanner sc = new Scanner(System.in);
+	
+		double base;
+		double altura;
+		
+		base = sc.nextDouble();
+		altura = sc.nextDouble();
+		
+		double triangulo = base * altura / 2;
+		
+		System.out.println("TRIANGULO: " + triangulo);
+	
+	}
+
+}

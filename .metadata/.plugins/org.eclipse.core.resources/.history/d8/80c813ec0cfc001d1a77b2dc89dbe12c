@@ -1,0 +1,23 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class uri_1018 {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		int N = leitor.nextInt();
+		
+		int notaCem = N/100;
+		int notaCinquenta = N-(100*N/100);
+		
+		System.out.println(notaCem);
+		System.out.println(notaCinquenta);
+		
+		leitor.close();
+	}
+
+}

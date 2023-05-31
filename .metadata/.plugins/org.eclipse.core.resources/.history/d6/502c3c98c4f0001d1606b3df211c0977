@@ -1,0 +1,25 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+
+		Scanner sc = new Scanner(System.in);
+		
+		int km;
+		int distanciaCarros = 60;
+		int kmDistancia = 30;
+		int distanciaResolvida;
+		
+		km = sc.nextInt();
+		
+		distanciaResolvida = distanciaCarros * km/kmDistancia;
+		
+		System.out.println(distanciaResolvida + " minutos");
+		
+		
+	}
+}

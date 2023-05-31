@@ -1,0 +1,27 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+
+		Scanner sc = new Scanner(System.in);
+
+		int velocidadeMediaVeiculo = 12;
+		int velocidadeMedia;
+		int tempoViagem;
+		double resultado;
+
+		tempoViagem = sc.nextInt();
+		velocidadeMedia = sc.nextInt();
+
+		resultado = (double) (tempoViagem * velocidadeMedia) / velocidadeMediaVeiculo;
+
+		System.out.print(resultado);
+
+		sc.close();
+
+	}
+}
