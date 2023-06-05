@@ -1,9 +1,12 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class uri_1061 {
 	
 	public static void main(String[] args) {
-
+		
+		Locale.setDefault(Locale.US);
+		
 		Scanner escreva = new Scanner(System.in);
 		
 		String dataInicial[] = escreva.nextLine().split(" ");
