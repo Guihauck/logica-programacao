@@ -12,7 +12,6 @@ public class Encadeamento_estruturas_condicionais {
 
 		if (horario < 12) {
 			System.out.println("Bom dia!");
-
 		} else if (horario < 18) {
 			System.out.println("Boa tarde!");
 		} else {
