@@ -25,29 +25,30 @@ public class uri_1040 {
 			System.out.println("Media: " + String.format("%.1f", media));
 			System.out.println("Aluno aprovado.");
 		}
-		
+
 		else if (media < 5.0) {
 			System.out.println("Media: " + String.format("%.1f", media));
 			System.out.println("Aluno reprovado.");
 		}
-		
+
 		else {
 			System.out.println("Media: " + String.format("%.1f", media));
 			System.out.println("Aluno em exame.");
 			notaExame = input.nextFloat();
 			System.out.println("Nota do exame: " + notaExame);
 			mediaFinal = (notaExame + media) / 2;
-		
-		if (mediaFinal >= 5.0) {
-			System.out.println("Aluno aprovado.");
-			System.out.println("Media final: " + String.format("%.1f", mediaFinal));
-		}
-		
-		else {
-			System.out.println("Aluno reprovado.");
-			System.out.println("Media final: " + String.format("%.1f", mediaFinal));
-		}
-		input.close();
 
+			if (mediaFinal >= 5.0) {
+				System.out.println("Aluno aprovado.");
+				System.out.println("Media final: " + String.format("%.1f", mediaFinal));
+			}
+
+			else {
+				System.out.println("Aluno reprovado.");
+				System.out.println("Media final: " + String.format("%.1f", mediaFinal));
+			}
+			input.close();
+
+		}
 	}
-} }
+}
