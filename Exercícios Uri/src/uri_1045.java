@@ -47,12 +47,12 @@ public class uri_1045 {
 		if (A == B && B == C) {
 			System.out.println("TRIANGULO EQUILATERO");
 		}
-		
+
 		else if (A == B || A == C || B == C) {
 			System.out.println("TRIANGULO ISOSCELES");
 		}
-		input.close();
 		
+		input.close();
 
 	}
 }
