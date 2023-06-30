@@ -54,7 +54,7 @@ public class uri_1049 {
 		if(animal1.equalsIgnoreCase("invertebrado")) {
 			if(animal2.equalsIgnoreCase("anelideo")) {
 				if(animal3.equalsIgnoreCase("hematofago")) {
-					System.out.println("sanguesseuga");
+					System.out.println("sanguessuga");
 				}
 			}
 		}
