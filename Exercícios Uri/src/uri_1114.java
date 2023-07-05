@@ -13,7 +13,6 @@ public class uri_1114 {
 			System.out.println("Senha Invalida");
 			digiteSenha = input.nextInt();
 		}
-
 		System.out.println("Acesso Permitido");
 		digiteSenha = input.nextInt();
 
