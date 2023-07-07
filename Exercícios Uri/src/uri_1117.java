@@ -24,7 +24,7 @@ public class uri_1117 {
 				System.out.println("nota invalida");
 			}
 		}
-		
+
 		media = notaValida / 2;
 		System.out.printf("media = %.2f\n", media);
 
