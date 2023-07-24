@@ -13,7 +13,7 @@ public class Teste_Mesa_7 {
 			i = i + 1;
 			y = y + i;
 
-			System.out.println(i);
+			System.out.print(i);
 			System.out.println(y);
 
 		}
