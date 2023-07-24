@@ -1,4 +1,4 @@
-package Exercicios_Aula;
+package Exercicios_If_Else;
 
 import java.util.Locale;
 import java.util.Scanner;
