@@ -1,4 +1,4 @@
-package secao_estrutura_condicional;
+package Exercicios_Aula;
 
 import java.util.Scanner;
 
